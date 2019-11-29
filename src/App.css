@@ -1,22 +1,74 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #484848;
 }
 
-.App-link {
-  color: #09d3ac;
+.MainTitle {
+  padding: 5vh 0;
+}
+
+.ContentTitle {
+  color: #969696;
+}
+
+.CompanyName {
+  font-size: 3em;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .CompanyName {
+    font-size: 1.7em;
+  }
+  
+}
+
+.RefreshButton {
+  border: none;
+  background: #7CBCBF;
+  font-size: 1.3em;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  border-radius: 50ch;
+  outline: none;
+  cursor: pointer;
+  transition: transform .15s ease;
+}
+
+.RefreshButton:hover {
+  transform: scale(1.1);
+}
+
+.RefreshButton:active {
+  transform: scale(1.05);
+}
+
+.ContactsList {
+  margin-top: 10vh;
+}
+
+.Contact {}
+
+.Footer {
+  padding: 5vh 10%;
+  box-sizing: border-box;
+  color: #969696;
+}
+
+a, a:visited, a:link {
+  color: #0782e4;
+  text-decoration: none;
 }

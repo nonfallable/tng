@@ -20,7 +20,7 @@ function App() {
         <div className="ContactsList">
           <div className="Contact">
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/@i4iksy">
-              {"Twitter разработчика"}
+              {"Twitter разработчика @i4iksy"}
             </a>
           </div>
       </div>
@@ -29,7 +29,7 @@ function App() {
         <span>
         Все совпадения случайны, потому что названия генерируются случайным образом.
         Если название вам понравилось – забирайте и пользуйтесь.
-        Весь код и алгоритм <a target="_blank" rel="noopener noreferrer" href="">опубликован на Github</a> и распространяется по <a target="_blank" rel="noopener noreferrer" href="">Лицензии MIT</a>.
+        Весь код и алгоритм <a target="_blank" rel="noopener noreferrer" href="https://github.com/nonfallable/tng">опубликован на Github</a> и распространяется по <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/nonfallable/tng/master/LICENSE">Лицензии MIT</a>.
         </span>
       </footer>
     </div>
